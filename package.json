@@ -1,0 +1,22 @@
+{
+  "name": "storage-man",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanjs/storage-man.git"
+  },
+  "keywords": [
+    "storage"
+  ],
+  "author": "zanjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanjs/storage-man/issues"
+  },
+  "homepage": "https://github.com/zanjs/storage-man#readme"
+}
