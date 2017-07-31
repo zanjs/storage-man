@@ -15,6 +15,18 @@ export default class Storage {
     }
     return value;
   }
+
+  /**
+   * 设置指定 key 的值
+   * @static
+   * @param {any} key 
+   * @returns 
+   * @memberof Storage
+   */
+  static set(key,val) {
+    localStorage.setItem(key, JSON.stringify(val));
+  }
+
   /**
    * 设置用户 Token 信息
    * @static
